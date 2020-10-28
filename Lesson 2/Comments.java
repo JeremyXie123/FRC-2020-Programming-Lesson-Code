@@ -1,13 +1,14 @@
 public class Comments{
-    //This is a single line comment
+    // This is a single line comment
+    // Comments should start with a space
     public static void main(String[] args) {
-        /*This is a multi line statement
+        /* This is a multi line statement
         multiple lines can be commented*/
         
-        //The following Code will print out "Hello".
+        // The following Code will print out "Hello".
         System.out.println("Hello");
 
-        /*You can comment out code like this
+        /* You can comment out code like this
         System.out.println("Hi");
         ^^^This code will not be run.
         */
