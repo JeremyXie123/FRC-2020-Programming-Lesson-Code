@@ -7,6 +7,7 @@ public class Arrays {
         // <type> <identifier>[] = <type>[<size>];
         int[] numList2 = new int[20];
 
+        
         //Array literals
         int[] numList3 = new int[]{ 1,2,3,4,5,6,7,8,9,10 }; 
         System.out.println(numList3[1]); // 2

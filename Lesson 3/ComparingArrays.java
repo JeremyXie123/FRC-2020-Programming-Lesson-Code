@@ -5,8 +5,9 @@ public class ComparingArrays {
         // Equivalent Content vs Equivalent Reference
         int arr1[] = {1, 2, 3}; 
         int arr2[] = {1, 2, 3}; 
-        if (arr1 == arr2) // Same as arr1.equals(arr2) 
-            System.out.println("Same Object"); 
+        if (arr1 == arr2) {
+            System.out.println("Same Object");
+        }
         else{
             System.out.println("Different Objects");
         }
